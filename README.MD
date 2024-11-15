@@ -3,6 +3,15 @@ An example ViaProxy plugin denying connections to local servers.\
 This plugin is only needed if you want to host a public SRV mode proxy instance.
 
 ## SRV ViaProxy
+### Using With Bungee/Velocity(ViaProxyConnect)
+This is the Way that ViaProxyConnect(Which has now shutted down) used. this wont work anymore unless the plugin is exposed to public because ViaProxyConnect is now become nostalgia and disappeared to a history.
+
+the ViaProxyConnect Provides `/ViaProxy` Command that used to connect multiple servers.\
+command arguments are: /viaproxy address port version.\
+then the arguments are used as address_port_version, and attached to a hostname then redirected users.\
+such as...\
+/viaproxy 2beta2t.net 25565 b1.7-b1.7.3 equals 2beta2t.net_25565_b1.7-1.7.3.viaproxy.raphimc.net:38888.\
+
 ### Running ViaProxy in SRV mode
 To use the SRV mode in ViaProxy you have to change some config options.
 ```yaml
