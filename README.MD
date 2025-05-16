@@ -35,7 +35,15 @@ address_port_version.viaproxy.hostname
 
 For example to connect to `lenni0451.net:39999` with the version `C0.30-CPE` you can use:
 ```
-lenni0451.net_39999_c0.30-cpe.viaproxy.127-0-0-1.nip.io
+lenni0451.net_39999_c0.30-cpe.viaproxy.viaversion.com
 ```
 
-If the domain of a server contains an underscore you currently can't connect to it since ViaProxy uses the underscore as a separator.
+If the domain of a server contains an underscore you need to use "URI-Compliant Syntax" as the Normal SRV Address Format(format 1) uses Underscore as a seperator. it looks like this:
+```
+address.<address>.port.<port>.version.<version>.f2.viaproxy.hostname
+```
+to use the syntax, you need to upgrade the viaproxy to 3.4.0.\
+For Example, to connect to raphimc.net._p25564._vAUTO.via.re.yt.nom.br:25565, 
+```
+address.raphimc.net._p25564._vAUTO.via.re.yt.nom.br.port.25565.version.1.20.3.f2.viaproxy.viaversion.com
+```
