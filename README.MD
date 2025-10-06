@@ -37,5 +37,10 @@ For example to connect to `lenni0451.net:39999` with the version `C0.30-CPE` you
 ```
 lenni0451.net_39999_c0.30-cpe.viaproxy.127-0-0-1.nip.io
 ```
+for new version
+```
+address.lenni0451.net.port.39999.version.c0.30-cpe.f2.viaproxy.127-0-0-1.nip.io
+```
+
 
 If the domain of a server contains an underscore you currently can't connect to it since ViaProxy uses the underscore as a separator.
