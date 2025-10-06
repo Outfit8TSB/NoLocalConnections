@@ -25,7 +25,7 @@ To connect to a server through ViaProxy using SRV syntax you have to prepend the
 ```
 address_port_version.viaproxy.hostname
 ```
-For URI Syntax
+For URI Syntax(3.4.0+)
 ```
 address.<address>.port.<port>.version.<version>.f2.viaproxy.hostname
 ```
@@ -35,7 +35,7 @@ you can use SRV Syntax:
 ```
 lenni0451.net_39999_c0.30-cpe.viaproxy.127-0-0-1.nip.io
 ```
-or URI Syntax:
+or URI Syntax(3.4.0+):
 ```
 address.lenni0451.net.port.39999.version.c0.30-cpe.f2.viaproxy.127-0-0-1.nip.io
 ```
