@@ -2,9 +2,9 @@
 An example ViaProxy plugin denying connections to local servers.\
 This plugin is only needed if you want to host a public Wildcard mode proxy instance.
 
-## SRV ViaProxy
+## Public ViaProxy
 ### Running ViaProxy in Public Wildcard mode
-To use the SRV mode in ViaProxy you have to change some config options.
+To use the Public Wildcard mode in ViaProxy you have to change some config options.
 ```yaml
 bind-address: 0.0.0.0:25568 # will translate to viaproxy.0-0-0-0.nip.io:25568
 target-address: 127.0.0.1 # unused in srv mode
